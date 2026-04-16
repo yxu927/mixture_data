@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.base.evolution.alignment:beast.pkgmgmt:beast.base.core:beast.base.inference:beast.base.evolution.tree.coalescent:beast.pkgmgmt:beast.base.core:beast.base.inference.util:beast.evolution.nuc:beast.base.evolution.operator:beast.base.inference.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood" required="BEAST.base v2.7.8:bModelTest v1.3.3:OBAMA v1.1.1" version="2.7">
+
+    <data
+id="thorne31"
+spec="Alignment"
+dataType="aminoacid"
+name="alignment">
+        <sequence id="seq_Austrobaileya_scandens" spec="Sequence" taxon="Austrobaileya_scandens" totalcount="20" value="----------VGFKAGVKDYRLTYYTPDYETKMTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHIEPVAGEENQYIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPPAYSKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFVFCAEEVYKAQAETGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVTHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMHAVIDRQRNHGIHFRVLAKALRMSGGDHVHSGTVVGKLEGERDVTLGFVDLLRDDFIEKDRSRGIYFTQDWVSMPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPDAVANRVALEACVQARNEGRDLAREGNEVIREASKWSPELAAACEVWKEIKFEFEAMDVL--"/>
+        <sequence id="seq_Calycanthus_floridus_var._glaucus" spec="Sequence" taxon="Calycanthus_floridus_var._glaucus" totalcount="20" value="MSPKTETKAGVGFKAGVKDYKLTYYTPDYETKDTDILAAFRVTPQPGVPAEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHIEPVAGEESQFIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPPAYTKTFLGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCAEAIFKSQAETGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRMSGGDHIHAGTVVGKLEGEREITLGFVDLLRDDFIEKDRSRGIYFTQDWVSMPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRNLAREGNEIIREASKWSPELAAACEVWKEIKFEFEAMDTL--"/>
+        <sequence id="seq_Carya_illinoinensis" spec="Sequence" taxon="Carya_illinoinensis" totalcount="20" value="MSPQTETKASVGFKAGVKDYKLTYYTPEYQTKDTDILAAFRVSPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHIEPVAGEENQFIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPPAYSKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCAEAIYKAQAETGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRMSGGDHIHAGTVVGKLEGEREITLGFVDLLRDDFVEKDRSRGIYFTQDWVSLPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEIIREASKWSPELAAACEVWKEIKFEFPAMDTL--"/>
+        <sequence id="seq_Chloranthus_serratus" spec="Sequence" taxon="Chloranthus_serratus" totalcount="20" value="MSPQTETKASVGFKAGVKEYKLNYYTPDYETKDTDILAAFRLTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHIEPVAGEENQYIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPPAYTKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFVFCAEALFKAQAETGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMHAVIDRQKNHGIHFRVLAKALRMSGGDHIHSGTVVGKLEGERDITLGFVDLLRDDFIEKDRSRGLYFTQDWVSLPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEVIREASKWSPELAAACEVWKEIKFEFEAMDTV--"/>
+        <sequence id="seq_Drimys_winteri" spec="Sequence" taxon="Drimys_winteri" totalcount="20" value="----------VGFKAGVKDYKLTYYTPDYETKDTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHIEPVAGEEDQYIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPTAYVKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCAEALYKAQAETGEIKGHYLNATAGTCEEMMKRAVFARELGVPIVMHDYLTGGFTANTTLAHYCRDNGLLLHIHRAMHAVIDRQKNHGIHFRVLAKALRMSGGDHIHAGTVVGKLEGERDITLGFVDLLRDDFIQKDRSRGIYFTQDWVSMPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVKARNEGRDLAREGNEIIREACKWSPELAAACEVWKEIKFEFKAVDTLD-"/>
+        <sequence id="seq_Enkianthus_campanulatus" spec="Sequence" taxon="Enkianthus_campanulatus" totalcount="20" value="MSPQTETKASVGFKAGVKDYKLTYYTPNYETKDTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHIEPVAGEESQFIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPVAYVKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCTEALNKAQAETGEIKGHYLNATAGTSEEMIKRAVFARELGVPIVMHDYLTGGFTSNTSLAHYCRDNGLLLHIHRAMHAVIDRQKNHGIHFRVLAKALRMSGGDHIHSGTVVGKLEGEREITLGFVDLLRDDYIEKDRGRGIYFSQDWVSLPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLARAGNEIIREASKWSTELAAACEVWKEIKFEFPAMDTL--"/>
+        <sequence id="seq_Ephedra_sinica" spec="Sequence" taxon="Ephedra_sinica" totalcount="20" value="MSPKTETKASVGFKAGVKDYRLTYYTPEYQTKNTDILAAFRVTPQPGVPAEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYDIEPVPGEDNQFIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPTAYIKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFVFCAEAIYKAQAETGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYLTGGFTANTTLAHYCRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRMSGGDHIHAGTVVGKLEGEREITLGFVDLLRDDFIEKDRSRGIYFTQDWVSMPGVLPVASGGIHVWHMPALTDIFGDDAVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEVIREACKWSPELAAACEVWKEIKFEFDSVDTI--"/>
+        <sequence id="seq_Equisetum_arvense" spec="Sequence" taxon="Equisetum_arvense" totalcount="20" value="MSPQTETKAGVGFKAGVKDYRLTYFTPDYETKDTDILAAFRMTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYNIEPVAGEDNQFIAYVAYPLDLFEEGSVTNLFTSIVGNVFGFKALRALRLEDLRIPPAYSKTFIGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFVAEALFKSQAETGEIKGHYLNATAGTCEEMLKRAVFARELGAPIVMHDYLTGGFTANTSLAFYCRDNGLLLHIHRAMHAVIDRQKNHGIHFRVLAKALRMSGGDHIHTGTVVGKLEGERDLTLGFVDLLRDDFIEKDRSRGIYFTQDWVSMPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVAVEACVQARNEGRDLATEGNDIIREAAKWSPELAAACEVWKEIKFEYEAVDTL--"/>
+        <sequence id="seq_Eupomatia_bennettii" spec="Sequence" taxon="Eupomatia_bennettii" totalcount="20" value="----------VGFKAGVKEYKLTYYTPEYETKDTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHIEPVAGEEGQYIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPVAYVKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRCGLDFTKDDENVNSQPFMRWRDRFLFCAEALFKAQAETGEIKGHYLSATAGTCEEMMKRAVFARELGVPIVMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRMSGGDHIHAGTVVGKLEGERDITLGFVDLLRDDFIEKDRSRGIYFPQDWVSLPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEVCVQARNEGHDLARQGNEIIREASKWSPELAAACEVWKEIKFEFKAMDTL--"/>
+        <sequence id="seq_Fagus_sylvatica_subsp._sylvatica" spec="Sequence" taxon="Fagus_sylvatica_subsp._sylvatica" totalcount="20" value="MSPQTETKASVGFKAGVKDYKLTYYTPDYETKDTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHIEPVAGEESQFIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPTSYAKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCAEALYKAQAETGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMHAVIDRQKNHGIHFRVLAKALRMSGGDHIHSGTVVGKLEGEREITLGFVDLLRDDYIEKDRSRGIYFTQDWVSLPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEIIREASKWSPELAAACEVWKEIKFEFPAMDTL--"/>
+        <sequence id="seq_Ginkgo_biloba" spec="Sequence" taxon="Ginkgo_biloba" totalcount="20" value="MSPKTETKASVGFKAGVKDYRLTYYTPEYQTKDTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYDIEPVPGEENQFIAYVAYPLDLFEEGSVTNLFTSIVGNVFGFKALRALRLEDLRIPPAYSKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCAEAIYKAQTETGEIKGHYLNATAGTCEEMMKRAVFARELGVPIVMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMHAVIDRQRNHGMHFRVLAKALRMSGGDHIHAGTVVGKLEGEREVTLGFVDLLRDDFIEKDRSRGIYFTQDWVSMPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEVIREASKWSPELAAACEVWKEIKFEFDTVDVL--"/>
+        <sequence id="seq_Gnetum_gnemon" spec="Sequence" taxon="Gnetum_gnemon" totalcount="20" value="MSPKTETKASVGFQAGVKDYRLTYYTPEYQTKDTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYDLEPVPGEDNQFIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPTSYIKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFVFCAEALYKAQAETGEIKGHYLNATAGTCEEMIKRAVFARELGAPIVMHDYLTGGFTANTTLAHYCRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRLSGGDHIHAGTVVGKLEGEREITLGFVDLLRDDFVEKDRSRGIYFTQDWVSTPGVLPVASGGIHVWHMPALTEIFGDDAVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLVREGNEVIREASKWSPELAAACEVWKEIKFEFQAVDTL--"/>
+        <sequence id="seq_Lathyrus_oleraceus_subsp._oleraceus" spec="Sequence" taxon="Lathyrus_oleraceus_subsp._oleraceus" totalcount="20" value="MSPQTETKAKVGFKAGVKDYKLTYYTPDYQTKDTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYEIEPVPGEDNQFIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPYAYVKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCAEAIYKSQAETGEIKGHYLNATAGTCEEMLKRAVFARELGVPIVMHDYLTGGFTANTTLSHYCRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRLSGGDHIHAGTVVGKLEGEREITLGFVDLLRDDYIKKDRSRGIYFTQDWVSLPGVIPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNAIIREACKWSPELAAACEVWKEIKFEFPAMDTL--"/>
+        <sequence id="seq_Lilium_superbum" spec="Sequence" taxon="Lilium_superbum" totalcount="20" value="----------AGFKAGVKDYKLTYYTPDYETKDTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHIESVVGEENQYIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPTSYSKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCAEAINKAQAETGEIKGHYLNATAGTCEEMMKRAVFARELGVPIVMHDYLTGGFTANTSLSHYCRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRMSGGDHIHAGTVVGKLEGEREMTLGFVDLLRDDFVEKDRSRGIFFTQDWVSMPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEIIREACKWSPELAAACEVWKAIKFVLQPVDKLD-"/>
+        <sequence id="seq_Lycopodium_clavatum" spec="Sequence" taxon="Lycopodium_clavatum" totalcount="20" value="MSPQTETKTSVGFKAGVRDYRLTYYTPNYKTKDTDILAAFRMTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYDIEPVVGEKNQYIAYVAYPLDLFEEGSVTNLFTSIVGNVFGFKALRALRLEDLRIPPAYSKTFIGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFVAEALNKAQVETGEIKGHYLNATAGTYEEMLKRAHCAKELGVPIIMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMHAVIDRQKNHGIHFRVLAKALRMSGGDHIHAGTVVGKLEGEREITLGFVDLLRDDYIEKDRSRGIFFTQDWVSMPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEIIREACKWSAELAAACEVWKEIKFEFEAVDTI--"/>
+        <sequence id="seq_Magnolia_grandiflora" spec="Sequence" taxon="Magnolia_grandiflora" totalcount="20" value="MSPKTETKASVGFKAGVKEYKLTYYTPEYETKDTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTNLDRYKGRCYHIEPVPGEESQFIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPTAYVKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFVFCAEAIYKAQAETGEIKGHYLNATAGTCEEMMKRAIFARELGVPIVMHDYLTGGFTANTTLAHYCRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRMSGGDHIHAGTVVGKLEGERDITLGFVDLLRDDFIEKDRSRGIYFTQDWVSLPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLASQGNEIIREASKWSPELAAACEVWKEIKFEFKAVDTL--"/>
+        <sequence id="seq_Marchantia_paleacea" spec="Sequence" taxon="Marchantia_paleacea" totalcount="20" value="MSPQTETKAGVGFKAGVKDYRLTYYTPDYETKDTDILAAFRMTPQPGVPAEEAGNAVAAESSTGTWTTVWTDGLTNLDRYKGRCYDIDPVPGEENQYIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPPAYTKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFVAEAIYKSQAETGEIKGHYLNATAGTCEEMLKRAACARELGVPIVMHDYLTGGFTANTSLAFYCRDNGLLLHIHRAMHAVIDRQKNHGIHFRVLAKALRMSGGDHIHAGTVVGKLEGDRQVTLGFVDLLRDDYIEKDRSRGIYFTQDWVSLPGVFPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVSLEACVQARNEGRDLAREGNEIIREACKWSPELSAACEIWKEIKFEFDIIDTL--"/>
+        <sequence id="seq_Nelumbo_nucifera" spec="Sequence" taxon="Nelumbo_nucifera" totalcount="20" value="MSPQTETKASVGFKAGVKDYRLTYYTPEYETKDTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHIEPVAGEESQFIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPPAYSKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCAEAIYKAQAETGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMHAVIDRQKNHGIHFRVLAKALRMSGGDHIHSGTVVGKLEGEREITLGFVDLLRDDFIEKDRSRGIYFTQDWVSLPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEIIREASKWSPELAAACEVWKEIKFEFEAMDTL--"/>
+        <sequence id="seq_Nicotiana_tabacum" spec="Sequence" taxon="Nicotiana_tabacum" totalcount="20" value="MSPQTETKASVGFKAGVKEYKLTYYTPEYQTKDTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYRIERVVGEKDQYIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPPAYVKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCAEALYKAQAETGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMHAVIDRQKNHGIHFRVLAKALRMSGGDHIHSGTVVGKLEGERDITLGFVDLLRDDFVEQDRSRGIYFTQDWVSLPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVKARNEGRDLAQEGNEIIREACKWSPELAAACEVWKEIVFNFAAVDVLDK"/>
+        <sequence id="seq_Nymphaea_alba" spec="Sequence" taxon="Nymphaea_alba" totalcount="20" value="MSPKTETKASVGFKAGVKDYRLTYYTPEYETLATDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHIEPVAGEENQYIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPPAYSKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCAEAIYKAQAETGEIKGHYLNATAGTSEEMMKRAVCARELGVPIVMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMHAVIDRQRNHGIHFRVLAKALRMSGGDHIHAGTVVGKLEGERDVTLGFVDLLRDDFIEKDRSRGIYFTQDWVSMPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEVIREASKWSPELAAACEVWKEIKFEFEAMDVL--"/>
+        <sequence id="seq_Oryza_sativa" spec="Sequence" taxon="Oryza_sativa" totalcount="20" value="MSPQTETKASVGFKAGVKDYKLTYYTPEYETKDTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHIEPVVGEDNQYIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPPTYSKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRACYECLRGGLDFTKDDENVNSQPFMRWRDRFVFCAEAIYKSQAETGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRMSGGDHIHAGTVVGKLEGEREMTLGFVDLLRDDFIEKDRARGIFFTQDWVSMPGVIPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAAANRVALEACVQARNEGRDLAREGNEIIRSACKWSPELAAACEIWKAIKFEFEPVDKLD-"/>
+        <sequence id="seq_Osmunda_mildei" spec="Sequence" taxon="Osmunda_mildei" totalcount="20" value="MSPQTETKTGIGFKAGVKDYRLTHYTPDYETKDTDILAAFRMTPQPGVPAEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYDIEPVAGEENQYIAYVAHPLDPFEEGSVTNMFTSIVGNVFGFKALRALRSEDLRIPPAYSKTFIGPPHGIQVERDKLNKYGRPSLGCTIKPKLGLSAKNYGRAVYECLRGGLDSTKDDENVNSQPFMRWRDRFLFVAEALFKAQAETGEIKGHYSNATAGTCEEMMKRAVFARESGVPIVMHDYSTGGSTANTSSAFYCRDNGLLLHIHRAMHAVIDRQRNHGIHFRVLAKALRMSGGDHIHAGTVVGKLEGEREVTLGFVDLLRDDYIEKDRSRGIYFTQDWVSMPGVLPVASGGIHVWHMPALTEIFGDDSVSQFGGGTLGHPWGNAPGAVANRVASEACVQARNEGRDLAREGNEIIREAAKWSPELAAACEVWKEIKFEFDTVDVL--"/>
+        <sequence id="seq_Persea_americana" spec="Sequence" taxon="Persea_americana" totalcount="20" value="MSPKTETKASVGFKAGVKDYKLTYYTPDYETKSTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHIEPVAGEESQFIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPPAYSKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCAEAIYKSQAETGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYLTGGFTANTTLAHYCRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRMSGGDHIHAGTVVGKLEGERDITLGFVDLLRDDFIEKDRSRGIYFTQDWVSMPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEIIREASKWSPELAAACEVWKEIKFEFAAMDTL--"/>
+        <sequence id="seq_Picea_abies" spec="Sequence" taxon="Picea_abies" totalcount="20" value="MSPKTETKASVGFKAGVKDYRLTYYTPEYQTKDTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYDIEPVAGEESQFIAFVAYPLDLFEEGSVTNLFTSIVGNVFGFKALRALRLEDLRIPPAYSKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFVFCAEAIYKAQAETGEIKGHYLNATAGTCEEMMKRAVFARELGVPIVMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRMSGGDHIHGGTVVGKLEGEREITLGFVDLLRDDFIEKDRSRGIYFTQDWVSMPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEVIREASKWSPELAAACEIWKEIKFEFEAVDTI--"/>
+        <sequence id="seq_Platanus_occidentalis" spec="Sequence" taxon="Platanus_occidentalis" totalcount="20" value="MSPQTETKASVGFKAGVKDYKLTYYTPDYETKDTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHIEPVAGEENQYIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPPAYSKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCAEAIYKAQAETGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMHAVIDRQKNHGIHFRVLAKALRMSGGDHIHAGTVVGKLEGEREITLGFVDLLRDDFIEKDRSRGIYFTQDWVSLPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEIIREACKWSPELAAACEVWKEIKFEFEAMDTL--"/>
+        <sequence id="seq_Podocarpus_macrophyllus" spec="Sequence" taxon="Podocarpus_macrophyllus" totalcount="20" value="MSPKTETKASAGFKAGVKDYRLTYYTPEYPTKDTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYGIEPIPGEESQFIAYVAYPLDLFEEGSVTNLFTSIVGNVFGFKALRAIRLEDLRIPPSYSKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFCFCTEAIFKAQAETGEIKGHYLNATAGTCEEMLKRAVFARELGVPIVMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRMSGGDHIHAGTVVGKLEGEREVTLGFVDLLRDDFIKKDRSRGIYFTQDWVSMPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVEARNEGRDLAREGNEVIREASKWSPELAAACEVWKEIKFEFETIDTL--"/>
+        <sequence id="seq_Polypodium_vulgare" spec="Sequence" taxon="Polypodium_vulgare" totalcount="20" value="MSPQTETKAGVGFKAGVKDYRLTYYTPEYQTKDTDILAAFRMTPQPGVPAEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYDIEPVAGEENQYIAYVAYPLDLFEEGSVTNLFTSIVGNVFGFKALRALRLEDLRIPPAYSKTFMGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFVAEALFKSQAETGEIKGHYLNATAGTCEEMMKRAIFARELGVPIVMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMHAVIDRQRNHGMHFRVLAKALRMSGGDHIHAGTVVGKLEGEREVTLGFVDLLRDDYIEKDRSRGIYFTQDWVSMPGVFPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEIIREACKWSPELAAACEIWKAIKFEFDTIDTL--"/>
+        <sequence id="seq_Ranunculus_acris" spec="Sequence" taxon="Ranunculus_acris" totalcount="20" value="MSPQTETKTSVGFKAGVKDYKLNYYTPEYTPKDTDTLAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHVEPVAGEENQYICYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPVAYVKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCAEALYKAQAETGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMHAVIDRQKNHGIHFRVLAKALRMSGGDHIHSGTVVGKLEGEREITLGFVDLLRDDFIEKDRSRGIYFTQDWVSLPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNDIIREACKWSLELAAACEVWKEIKFEFEAMDTL--"/>
+        <sequence id="seq_Saururus_cernuus" spec="Sequence" taxon="Saururus_cernuus" totalcount="20" value="MSPKTETKAFVGFKAGVKDYKLTYYTPDYETKDTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYGIEPVAGEENQFIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPPAYSKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCAEAIYKSQAETGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRMSGGDHIHAGTVVGKLEGEREITLGFVDLLRDDFIEKDRSRGIYFTQDWVSMPGVLPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEIIREAAKWSPELAAACEVWKEIKFEFEAMDTL--"/>
+        <sequence id="seq_Serenoa_repens" spec="Sequence" taxon="Serenoa_repens" totalcount="20" value="MSPQTETKASVGFKAGVKDYKLTYYTPDYETKDTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHTETVVGEENQYIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPTSYSKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCAEAIYKAQAETGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRMSGGDHIHAGTVVGKLEGEREMTLGFVDLLRDDFIEKDRSRGIFFTQDWVSMPGVIPVASGGIHVWHMPALTEIFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEIIREASKWSPELASACEVWKEIKF----------"/>
+        <sequence id="seq_Welwitschia_mirabilis" spec="Sequence" taxon="Welwitschia_mirabilis" totalcount="20" value="MSPKTETKASVGFQAGVKDYRLTYYTPEYQTKDTDILAAFRVTPQPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYDLEPVPGEDNQYIAYVAYPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPTSYIKTFQGPPHGIQVERDKLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFVFCAEAIYKAQAETGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYLTGGFTANTTLAHYCRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRMSGGDHIHAGTVVGKLEGEREITLGFVDLLRDDFIEKDRSRGIYFTQDWVSMPGVMPVASGGIHVWHMPALTDIFGDDAVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEVIREAAKWSPELAAACEVWKEIKFEFESVDTL--"/>
+    </data>
+
+    <map name="Uniform" >beast.base.inference.distribution.Uniform</map>
+
+    <map name="Exponential" >beast.base.inference.distribution.Exponential</map>
+
+    <map name="LogNormal" >beast.base.inference.distribution.LogNormalDistributionModel</map>
+
+    <map name="Normal" >beast.base.inference.distribution.Normal</map>
+
+    <map name="Beta" >beast.base.inference.distribution.Beta</map>
+
+    <map name="Gamma" >beast.base.inference.distribution.Gamma</map>
+
+    <map name="LaplaceDistribution" >beast.base.inference.distribution.LaplaceDistribution</map>
+
+    <map name="prior" >beast.base.inference.distribution.Prior</map>
+
+    <map name="InverseGamma" >beast.base.inference.distribution.InverseGamma</map>
+
+    <map name="OneOnX" >beast.base.inference.distribution.OneOnX</map>
+
+ <run id="mcmcmc" spec="coupledMCMC.CoupledMCMC" chainLength="1000000000" chains="4" deltaTemperature="0.15" resampleEvery="1000" target="0.234">
+        <state id="state" spec="State" storeEvery="5000">
+            <tree id="Tree.t:thorne31" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.thorne31" spec="TaxonSet">
+                    <alignment idref="thorne31"/>
+                </taxonset>
+            </tree>
+            <parameter id="birthRate.t:thorne31" spec="parameter.RealParameter" lower="0.0" name="stateNode">100.0</parameter>
+            <stateNode id="OBAMA_ModelIndicator.s:thorne31" spec="parameter.IntegerParameter" lower="0" upper="14">0</stateNode>
+            <parameter id="OBAMA_gammaShape.s:thorne31" spec="parameter.RealParameter" lower="0.1" name="stateNode">1.0</parameter>
+            <parameter id="OBAMA_ProportionInvariable.s:thorne31" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+            <stateNode id="OBAMA_hasInvariableSites.s:thorne31" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="OBAMA_hasGammaRates.s:thorne31" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="OBAMA_useExternalFreqs.s:thorne31" spec="parameter.BooleanParameter">false</stateNode>
+            <parameter id="OBAMA_frequencies.s:thorne31" spec="parameter.RealParameter" dimension="20" lower="0.0" name="stateNode" upper="1.0">0.05</parameter>
+             <parameter id="clockRate" spec="parameter.RealParameter" estimate="false" lower="0.0" name="stateNode">1.0</parameter>
+             <parameter id="alpha" spec="parameter.RealParameter" lower="0.0" upper="1.0" name="stateNode">1.0</parameter>
+             <parameter id="sigma2" spec="parameter.RealParameter" lower="0.0" name="stateNode">0.01</parameter>
+             <stateNode id="i_relax" spec="parameter.IntegerParameter">0</stateNode>
+             <stateNode id="i_top" spec="parameter.IntegerParameter">1</stateNode>
+             <stateNode id="rawRates" spec="parameter.RealParameter" dimension="60" lower="0.0">1.0</stateNode>
+             <parameter id="uclnsigma" spec="parameter.RealParameter" lower="0.0" name="stateNode">0.2</parameter>
+        </state>
+        <init id="RandomTree.t:thorne31" spec="RandomTree" estimate="false" initial="@Tree.t:thorne31" taxa="@thorne31">
+            <populationModel id="ConstantPopulation0.t:thorne31" spec="ConstantPopulation">
+                <parameter id="randomPopSize.t:thorne31" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+            </populationModel>
+        </init>
+        <distribution id="posterior" spec="CompoundDistribution">
+            <distribution id="prior" spec="CompoundDistribution">
+                <distribution id="YuleModel.t:thorne31" spec="beast.base.evolution.speciation.YuleModel" birthDiffRate="@birthRate.t:thorne31" tree="@Tree.t:thorne31"/>
+                <distribution id="OBAMA_PropInvariablePrior.s:thorne31" spec="bmodeltest.math.distributions.BMTPrior" count="@OBAMA_hasInvariableSites.s:thorne31" x="@OBAMA_ProportionInvariable.s:thorne31">
+                    <Beta id="Beta.0" name="distr">
+                        <alpha id="Function$Constant.2" spec="Function$Constant" value="1.0"/>
+                        <beta id="Function$Constant.3" spec="Function$Constant" value="4.0"/>
+                    </Beta>
+                </distribution>
+                <prior id="OBAMA_freqsPrior.s:thorne31" name="distribution" x="@OBAMA_frequencies.s:thorne31">
+                    <distr id="OBMAMA_Dirichlet" spec="distribution.Dirichlet">
+                        <parameter id="RealParameter" spec="parameter.RealParameter" dimension="20" lower="0.0" name="alpha" upper="0.0">4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0 4.0</parameter>
+                    </distr>
+                </prior>
+                <distribution id="OBAMA_GammaShapePrior.s:thorne31" spec="bmodeltest.math.distributions.BMTPrior" count="@OBAMA_hasGammaRates.s:thorne31" x="@OBAMA_gammaShape.s:thorne31">
+                    <Exponential id="Exponential.0" name="distr">
+                        <parameter id="RealParameter.0" spec="parameter.RealParameter" estimate="false" name="mean">1.0</parameter>
+                    </Exponential>
+                </distribution>
+                <prior id="birthRatePrior.t:thorne31" name="distribution" x="@birthRate.t:thorne31">
+                <LogNormal id="LN.birthRate" name="distr" meanInRealSpace="false">
+        <parameter spec="parameter.RealParameter" estimate="false" name="M">4.60517</parameter>
+        <parameter spec="parameter.RealParameter" estimate="false" name="S">0.56053</parameter>
+                </LogNormal>
+            </prior>
+            
+            
+<distribution id="SVSRelaxedClockPrior" spec="mixture.beast.evolution.mixture.RelaxedRatesPriorSVS" indicator="@i_relax" rates="@rawRates" sigma2="@sigma2" tree="@Tree.t:thorne31" ucldStdev="@uclnsigma">
+        <parameter id="rootLogRate" spec="parameter.RealParameter" name="rootLogRate">0.0</parameter>
+</distribution>
+
+<distribution id="CategoricalDistribution.relax" spec="mixture.beast.evolution.clockmodel.auto.CategoricalDistribution" parameter="@i_relax">
+        <parameter id="w_relax" spec="parameter.RealParameter" dimension="2" estimate="false" name="p">0.5 0.5</parameter>
+</distribution>
+
+<distribution id="CategoricalDistribution.top" spec="mixture.beast.evolution.clockmodel.auto.CategoricalDistribution" parameter="@i_top">
+        <parameter id="w_top" spec="parameter.RealParameter" dimension="2" estimate="false" name="p">0.3333333333333333 0.6666666666666666</parameter>
+</distribution>
+                
+<prior id="sigma2Prior" name="distribution" x="@sigma2">
+    <LogNormal id="LogNormalDistributionModel.sigma2.c:De4"  meanInRealSpace="false" name="distr">
+        <parameter id="sigma2M" spec="parameter.RealParameter" estimate="false" name="M">2.5</parameter>
+        <parameter id="sigma2S" spec="parameter.RealParameter" estimate="false" name="S">1</parameter>
+    </LogNormal>
+</prior>
+                               
+                            
+<prior id="uclnsigmaPrior" name="distribution" x="@uclnsigma">
+    <LogNormal id="LogNormalDistributionModel.1" name="distr">
+       <parameter id="RealParameter.15" spec="parameter.RealParameter" estimate="false" name="M">-0.7</parameter>
+       <parameter id="RealParameter.16" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">1</parameter>
+    </LogNormal>
+</prior>
+
+
+<distribution id="ingroup30.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:thorne31">
+                    <taxonset id="ingroup30" spec="TaxonSet">
+                        <taxon id="Austrobaileya_scandens" spec="Taxon"/>
+                        <taxon id="Calycanthus_floridus_var._glaucus" spec="Taxon"/>
+                        <taxon id="Carya_illinoinensis" spec="Taxon"/>
+                        <taxon id="Chloranthus_serratus" spec="Taxon"/>
+                        <taxon id="Drimys_winteri" spec="Taxon"/>
+                        <taxon id="Enkianthus_campanulatus" spec="Taxon"/>
+                        <taxon id="Ephedra_sinica" spec="Taxon"/>
+                        <taxon id="Equisetum_arvense" spec="Taxon"/>
+                        <taxon id="Eupomatia_bennettii" spec="Taxon"/>
+                        <taxon id="Fagus_sylvatica_subsp._sylvatica" spec="Taxon"/>
+                        <taxon id="Ginkgo_biloba" spec="Taxon"/>
+                        <taxon id="Gnetum_gnemon" spec="Taxon"/>
+                        <taxon id="Lathyrus_oleraceus_subsp._oleraceus" spec="Taxon"/>
+                        <taxon id="Lilium_superbum" spec="Taxon"/>
+                        <taxon id="Lycopodium_clavatum" spec="Taxon"/>
+                        <taxon id="Magnolia_grandiflora" spec="Taxon"/>
+                        <taxon id="Nelumbo_nucifera" spec="Taxon"/>
+                        <taxon id="Nicotiana_tabacum" spec="Taxon"/>
+                        <taxon id="Nymphaea_alba" spec="Taxon"/>
+                        <taxon id="Oryza_sativa" spec="Taxon"/>
+                        <taxon id="Osmunda_mildei" spec="Taxon"/>
+                        <taxon id="Persea_americana" spec="Taxon"/>
+                        <taxon id="Picea_abies" spec="Taxon"/>
+                        <taxon id="Platanus_occidentalis" spec="Taxon"/>
+                        <taxon id="Podocarpus_macrophyllus" spec="Taxon"/>
+                        <taxon id="Polypodium_vulgare" spec="Taxon"/>
+                        <taxon id="Ranunculus_acris" spec="Taxon"/>
+                        <taxon id="Saururus_cernuus" spec="Taxon"/>
+                        <taxon id="Serenoa_repens" spec="Taxon"/>
+                        <taxon id="Welwitschia_mirabilis" spec="Taxon"/>
+                    </taxonset>
+                </distribution>
+            </distribution>
+            
+<distribution id="conifer.mrca"
+              spec="beast.base.evolution.tree.MRCAPrior"
+              monophyletic="false"
+              tree="@Tree.t:thorne31">
+    <taxonset id="conifers" spec="TaxonSet">
+        <taxon idref="Ginkgo_biloba"/>
+        <taxon idref="Picea_abies"/>
+        <taxon idref="Podocarpus_macrophyllus"/>
+    </taxonset>
+</distribution>
+
+<distribution id="eudicot.mrca"
+              spec="beast.base.evolution.tree.MRCAPrior"
+              monophyletic="false"
+              tree="@Tree.t:thorne31">
+    <taxonset id="eudicots" spec="TaxonSet">
+        <taxon idref="Platanus_occidentalis"/>
+        <taxon idref="Nelumbo_nucifera"/>
+        <taxon idref="Ranunculus_acris"/>
+        <taxon idref="Enkianthus_campanulatus"/>
+        <taxon idref="Nicotiana_tabacum"/>
+        <taxon idref="Lathyrus_oleraceus_subsp._oleraceus"/>
+        <taxon idref="Fagus_sylvatica_subsp._sylvatica"/>
+        <taxon idref="Carya_illinoinensis"/>
+    </taxonset>
+</distribution>                   
+                
+                
+        
+        
+        
+        
+<distribution id="likelihood" spec="CompoundDistribution">
+    <distribution id="thorne31.mixtureTreeLikelihood" spec="mixture.beast.evolution.mixture.MixtureTreeLikelihood" weights="@w_top" alpha="@alpha">
+
+        <!-- Strict clock component -->
+<subLikelihood id="treeLikelihood.StrictClock" spec="ThreadedTreeLikelihood" tree="@Tree.t:thorne31" useAmbiguities="true">
+          <data idref="thorne31"/>
+        <siteModel id="OBAMA.s:thorne31" spec="obama.sitemodel.OBAMAModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@OBAMA_hasGammaRates.s:thorne31" hasInvariantSites="@OBAMA_hasInvariableSites.s:thorne31" proportionInvariant="@OBAMA_ProportionInvariable.s:thorne31" shape="@OBAMA_gammaShape.s:thorne31">
+                        <parameter id="OBAMA_mutationRate.s:thorne31" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                        <substModel id="OBAMA_substmodel.s:thorne31" spec="obama.substitutionmodel.OBAMAModel" modelIndicator="@OBAMA_ModelIndicator.s:thorne31" useExternalFreqs="@OBAMA_useExternalFreqs.s:thorne31">
+                            <model id="OBAMA_Blosum62.0" spec="obama.substitutionmodel.OBAMA_Blosum62"/>
+                            <model id="OBAMA_CpREV.0" spec="obama.substitutionmodel.OBAMA_CpREV"/>
+                            <model id="OBAMA_DCMut.0" spec="obama.substitutionmodel.OBAMA_DCMut"/>
+                            <model id="OBAMA_Dayhoff.0" spec="obama.substitutionmodel.OBAMA_Dayhoff"/>
+                            <model id="OBAMA_JTT.0" spec="obama.substitutionmodel.OBAMA_JTT"/>
+                            <model id="OBAMA_LG.0" spec="obama.substitutionmodel.OBAMA_LG"/>
+                            <model id="OBAMA_MtArt.0" spec="obama.substitutionmodel.OBAMA_MtArt"/>
+                            <model id="OBAMA_MtREV.0" spec="obama.substitutionmodel.OBAMA_MtREV"/>
+                            <model id="OBAMA_MtMam.0" spec="obama.substitutionmodel.OBAMA_MtMam"/>
+                            <model id="OBAMA_RtREV.0" spec="obama.substitutionmodel.OBAMA_RtREV"/>
+                            <model id="OBAMA_VT.0" spec="obama.substitutionmodel.OBAMA_VT"/>
+                            <model id="OBAMA_WAG.0" spec="obama.substitutionmodel.OBAMA_WAG"/>
+                            <frequencies id="OBAMA_freqs.s:thorne31" spec="Frequencies" frequencies="@OBAMA_frequencies.s:thorne31"/>
+                        </substModel>
+                    </siteModel>
+    <branchRateModel id="StrictClockModel" spec="beast.base.evolution.branchratemodel.StrictClockModel" clock.rate="@clockRate"/>
+</subLikelihood>
+
+        <!-- Relaxed clock component -->
+<subLikelihood id="treeLikelihood.RelaxedSVS" spec="ThreadedTreeLikelihood" data="@thorne31" tree="@Tree.t:thorne31" useAmbiguities="true">
+
+      <siteModel id="1OBAMA.s:thorne31" spec="obama.sitemodel.OBAMAModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@OBAMA_hasGammaRates.s:thorne31" hasInvariantSites="@OBAMA_hasInvariableSites.s:thorne31" proportionInvariant="@OBAMA_ProportionInvariable.s:thorne31" shape="@OBAMA_gammaShape.s:thorne31">
+                        <parameter id="1OBAMA_mutationRate.s:thorne31" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                        <substModel id="1OBAMA_substmodel.s:thorne31" spec="obama.substitutionmodel.OBAMAModel" modelIndicator="@OBAMA_ModelIndicator.s:thorne31" useExternalFreqs="@OBAMA_useExternalFreqs.s:thorne31">
+                            <model id="1OBAMA_Blosum62.0" spec="obama.substitutionmodel.OBAMA_Blosum62"/>
+                            <model id="1OBAMA_CpREV.0" spec="obama.substitutionmodel.OBAMA_CpREV"/>
+                            <model id="1OBAMA_DCMut.0" spec="obama.substitutionmodel.OBAMA_DCMut"/>
+                            <model id="1OBAMA_Dayhoff.0" spec="obama.substitutionmodel.OBAMA_Dayhoff"/>
+                            <model id="1OBAMA_JTT.0" spec="obama.substitutionmodel.OBAMA_JTT"/>
+                            <model id="1OBAMA_LG.0" spec="obama.substitutionmodel.OBAMA_LG"/>
+                            <model id="1OBAMA_MtArt.0" spec="obama.substitutionmodel.OBAMA_MtArt"/>
+                            <model id="1OBAMA_MtREV.0" spec="obama.substitutionmodel.OBAMA_MtREV"/>
+                            <model id="1OBAMA_MtMam.0" spec="obama.substitutionmodel.OBAMA_MtMam"/>
+                            <model id="1OBAMA_RtREV.0" spec="obama.substitutionmodel.OBAMA_RtREV"/>
+                            <model id="1OBAMA_VT.0" spec="obama.substitutionmodel.OBAMA_VT"/>
+                            <model id="1OBAMA_WAG.0" spec="obama.substitutionmodel.OBAMA_WAG"/>
+                            <frequencies id="1OBAMA_freqs.s:thorne31" spec="Frequencies" frequencies="@OBAMA_frequencies.s:thorne31"/>
+                        </substModel>
+                    </siteModel>
+<branchRateModel id="SharedRatesClockModel.516537656" spec="mixture.beast.evolution.mixture.SharedRatesClockModel" meanRate="@clockRate" normalize="true" rates="@rawRates" tree="@Tree.t:thorne31"/>
+</subLikelihood>
+
+</distribution>
+</distribution>
+</distribution>     
+        
+        
+        
+        
+        
+        
+        
+        
+<operator id="uclnsigma.scale"
+          spec="kernel.BactrianScaleOperator"
+          parameter="@uclnsigma"
+          upper="10.0"
+          weight="8.0"/>
+
+<operator id="sigma2Scaler"
+          spec="ScaleOperator"
+          parameter="@sigma2"
+          scaleFactor="0.5"
+          weight="8.0"/>
+
+<operator id="indicator.gibbs"
+          spec="mixture.beast.evolution.operator.IndicatorGibbsOperator"
+          indicator="@i_relax"
+          prior="@SVSRelaxedClockPrior"
+          weight="30.0"/>
+
+<operator id="rawRates.oneScale"
+          spec="mixture.beast.evolution.operator.SingleRateScaleOperator"
+          rates="@rawRates"
+          weight="4.0"/>
+
+<operator id="rawRates.subtreeScale"
+          spec="mixture.beast.evolution.operator.SubtreeRateScaleOperator"
+          rates="@rawRates"
+          tree="@Tree.t:thorne31"
+          window="0.25"
+          weight="6.0"/>
+
+<operator id="alphaAnneal"
+          spec="mixture.beast.evolution.operator.AlphaAnnealingOperator"
+          alpha="@alpha"
+          alphaStart="1.0"
+          alphaEnd="0.0"
+          alphaSteps="5000"
+          weight="4.0"/>
+
+<operator id="ucacBridge"
+          spec="mixture.beast.evolution.operator.UCACSwitchBridgeOperator"
+          tree="@Tree.t:thorne31"
+          rates="@rawRates"
+          indicator="@i_relax"
+          ucldStdev="@uclnsigma"
+          sigma2="@sigma2"
+          minBranchLength="1e-12"
+          weight="20.0"/>
+
+<operator id="ucacMomentHyp"
+          spec="mixture.beast.evolution.operator.UCACSwitchMomentHyperOperator"
+          tree="@Tree.t:thorne31"
+          rates="@rawRates"
+          indicator="@i_relax"
+          ucldStdev="@uclnsigma"
+          sigma2="@sigma2"
+          minBranchLength="1e-12"
+          ucldLogSd="0.6"
+          sigma2LogSd="0.6"
+          weight="20.0"/>
+
+<operator id="acSubtreeU"
+          spec="mixture.beast.evolution.operator.ACSubtreeUIncrementOperator"
+          tree="@Tree.t:thorne31"
+          rates="@rawRates"
+          indicator="@i_relax"
+          sigma2="@sigma2"
+          minBranchLength="1e-12"
+          delta="0.25"
+          internalOnly="true"
+          allowRoot="false"
+          maxSubtreeEdges="80"
+          rejectIfNotAC="true"
+          weight="35.0"/>
+
+<operator id="ucldSigmaNC"
+          spec="mixture.beast.evolution.operator.UCLDStdevNonCenteredOperator"
+          rates="@rawRates"
+          indicator="@i_relax"
+          ucldStdev="@uclnsigma"
+          window="0.20"
+          rejectIfNotUC="true"
+          weight="15.0"/>
+
+<operator id="acSigma2NC"
+          spec="mixture.beast.evolution.operator.ACSigma2NonCenteredOperator"
+          tree="@Tree.t:thorne31"
+          rates="@rawRates"
+          indicator="@i_relax"
+          sigma2="@sigma2"
+          minBranchLength="1e-12"
+          window="0.15"
+          rejectIfNotAC="true"
+          weight="15.0"/>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <operator id="YuleBirthRateScaler.t:thorne31" spec="kernel.BactrianScaleOperator" parameter="@birthRate.t:thorne31" upper="10.0" weight="3.0"/>
+        <operator id="YuleModelTreeRootScaler.t:thorne31" spec="kernel.BactrianScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:thorne31" upper="10.0" weight="3.0"/>
+        <operator id="YuleModelUniformOperator.t:thorne31" spec="kernel.BactrianNodeOperator" tree="@Tree.t:thorne31" weight="30.0"/>
+        <operator id="YuleModelSubtreeSlide.t:thorne31" spec="kernel.BactrianSubtreeSlide" tree="@Tree.t:thorne31" weight="15.0"/>
+        <operator id="YuleModelNarrow.t:thorne31" spec="Exchange" tree="@Tree.t:thorne31" weight="15.0"/>
+        <operator id="YuleModelWide.t:thorne31" spec="Exchange" isNarrow="false" tree="@Tree.t:thorne31" weight="3.0"/>
+        <operator id="YuleModelWilsonBalding.t:thorne31" spec="WilsonBalding" tree="@Tree.t:thorne31" weight="3.0"/>
+        <operator id="YuleModelBICEPSEpochTop.t:thorne31" spec="EpochFlexOperator" scaleFactor="0.1" tree="@Tree.t:thorne31" weight="2.0"/>
+        <operator id="YuleModelBICEPSEpochAll.t:thorne31" spec="EpochFlexOperator" fromOldestTipOnly="false" scaleFactor="0.1" tree="@Tree.t:thorne31" weight="2.0"/>
+        <operator id="YuleModelBICEPSTreeFlex.t:thorne31" spec="TreeStretchOperator" scaleFactor="0.01" tree="@Tree.t:thorne31" weight="2.0"/>
+        <operator id="OBAMA_FrequenciesAVMNOperator.s:thorne31" spec="kernel.AdaptableVarianceMultivariateNormalOperator" beta="0.05" burnin="500" initial="1000" weight="1.0">
+            <transformations id="LogConstrainedSumTransform.s:thorne31" spec="operator.kernel.Transform$LogConstrainedSumTransform">
+                <f idref="OBAMA_frequencies.s:thorne31"/>
+            </transformations>
+        </operator>
+        <operator id="OBAMA_gammaShapeScaler.s:thorne31" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@OBAMA_hasGammaRates.s:thorne31" parameter="@OBAMA_gammaShape.s:thorne31" scaleFactor="0.5" weight="0.5"/>
+        <operator id="OBAMA_ProportionInvariableScaler.s:thorne31" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@OBAMA_hasInvariableSites.s:thorne31" parameter="@OBAMA_ProportionInvariable.s:thorne31" scaleFactor="0.5" weight="0.5"/>
+        <operator id="OBAMA_hasGammaRatesFlipper.s:thorne31" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@OBAMA_hasGammaRates.s:thorne31" rates="@OBAMA_gammaShape.s:thorne31" weight="0.1"/>
+        <operator id="OBAMA_hasInvariableSitesFlipper.s:thorne31" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@OBAMA_hasInvariableSites.s:thorne31" rates="@OBAMA_ProportionInvariable.s:thorne31" weight="0.1"/>
+        <operator id="OBAMA_FreqsFlipOperator.s:thorne31" spec="operator.BitFlipOperator" parameter="@OBAMA_useExternalFreqs.s:thorne31" weight="0.1"/>
+        <operator id="OBAMA_ModelIndicatorUniformOperator.s:thorne31" spec="operator.UniformOperator" parameter="@OBAMA_ModelIndicator.s:thorne31" weight="3.0"/>
+        
+        <logger id="tracelog" spec="Logger" fileName="$(filebase).log" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+          
+            <log id="TreeHeight.t:thorne31" spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree.t:thorne31"/>
+            <log idref="YuleModel.t:thorne31"/>
+            
+            <log idref="conifer.mrca"/>
+            <log idref="eudicot.mrca"/>
+            <log idref="i_relax"/>
+            <log idref="uclnsigma"/>
+            <log idref="alpha"/>
+            <log idref="sigma2"/>
+            <log idref="ingroup30.prior"/>
+        
+            <log idref="treeLikelihood.StrictClock"/>
+            <log idref="treeLikelihood.RelaxedSVS"/>
+ 
+
+            <log id="mixtureAlloc" spec="mixture.beast.evolution.mixture.MixtureLikelihoodLogger" mixture="@thorne31.mixtureTreeLikelihood"/>
+            
+            <log id="SVS"
+     spec="mixture.beast.evolution.mixture.HierarchicalSVSLogger"
+     topMixture="@thorne31.mixtureTreeLikelihood"
+     svsPrior="@SVSRelaxedClockPrior"
+     innerWeights="@w_relax"
+     printThreeModelWeights="true"
+     printRBStats="false"/>
+ 
+ 
+ 
+            <log idref="birthRate.t:thorne31"/>
+            <log idref="OBAMA_frequencies.s:thorne31"/>
+            <log idref="OBAMA_ModelIndicator.s:thorne31"/>
+            <log idref="OBAMA_gammaShape.s:thorne31"/>
+            <log idref="OBAMA_ProportionInvariable.s:thorne31"/>
+            <log idref="OBAMA_hasGammaRates.s:thorne31"/>
+            <log idref="OBAMA_hasInvariableSites.s:thorne31"/>
+            <log id="OBAMA_ActivePropInvariable.s:thorne31" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@OBAMA_hasInvariableSites.s:thorne31" parameter="@OBAMA_ProportionInvariable.s:thorne31"/>
+            <log id="OBAMA_ActiveGammaShape.s:thorne31" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@OBAMA_hasGammaRates.s:thorne31" parameter="@OBAMA_gammaShape.s:thorne31"/>
+            <log idref="OBAMA_useExternalFreqs.s:thorne31"/>
+        </logger>
+        <logger id="screenlog" spec="Logger" logEvery="1000">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+        </logger>
+        <logger id="treelog.t:thorne31" spec="Logger" fileName="$(filebase)-$(tree).trees" logEvery="1000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:thorne31" spec="beast.base.evolution.TreeWithMetaDataLogger" branchratemodel="@SharedRatesClockModel.516537656" tree="@Tree.t:thorne31"/>
+        </logger>
+        <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+    </run>
+
+</beast>
