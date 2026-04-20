@@ -305,6 +305,7 @@ name="alignment">
  
             
              <parameter id="clockRate" spec="parameter.RealParameter" lower="0.0" name="stateNode">0.01907747720812402</parameter>
+
              <parameter id="alpha" spec="parameter.RealParameter" lower="0.0" upper="1.0" name="stateNode">1.0</parameter>
              <parameter id="sigma2" spec="parameter.RealParameter" lower="0.0" name="stateNode">0.01</parameter>
              <stateNode id="i_relax" spec="parameter.IntegerParameter">0</stateNode>
@@ -468,13 +469,13 @@ name="alignment">
           spec="kernel.BactrianScaleOperator"
           parameter="@clockRate"
           upper="10.0"
-          weight="8.0"/>
+          weight="5.0"/>
 
 <operator id="uclnsigma.scale"
           spec="kernel.BactrianScaleOperator"
           parameter="@uclnsigma"
           upper="10.0"
-          weight="8.0"/>
+          weight="5.0"/>
 
 <operator id="sigma2Scaler"
           spec="ScaleOperator"
@@ -482,25 +483,24 @@ name="alignment">
           scaleFactor="0.5"
           weight="8.0"/>
 
-<!-- 
 <operator id="indicator.gibbs"
           spec="mixture.beast.evolution.operator.IndicatorGibbsOperator"
           indicator="@i_relax"
           prior="@SVSRelaxedClockPrior"
-          weight="30.0"/>
- -->
+          weight="15.0"/>
+
 
 <operator id="rawRates.oneScale"
           spec="mixture.beast.evolution.operator.SingleRateScaleOperator"
           rates="@rawRates"
-          weight="4.0"/>
+          weight="15.0"/>
 
 <operator id="rawRates.subtreeScale"
           spec="mixture.beast.evolution.operator.SubtreeRateScaleOperator"
           rates="@rawRates"
           tree="@Tree.t:h3n2_with_type_and_date_from_xml"
           window="0.25"
-          weight="6.0"/>
+          weight="20.0"/>
 
 <operator id="alphaAnneal"
           spec="mixture.beast.evolution.operator.AlphaAnnealingOperator"
@@ -508,7 +508,7 @@ name="alignment">
           alphaStart="1.0"
           alphaEnd="0.0"
           alphaSteps="5000"
-          weight="4.0"/>
+          weight="15.0"/>
 
 <operator id="ucacBridge"
           spec="mixture.beast.evolution.operator.UCACSwitchBridgeOperator"
@@ -518,24 +518,10 @@ name="alignment">
           ucldStdev="@uclnsigma"
           sigma2="@sigma2"
           minBranchLength="1e-12"
-          weight="20.0"/>
-
-<!-- 
-<operator id="ucacMomentHyp"
-          spec="mixture.beast.evolution.operator.UCACSwitchMomentHyperOperator"
-          tree="@Tree.t:h3n2_with_type_and_date_from_xml"
-          rates="@rawRates"
-          indicator="@i_relax"
-          ucldStdev="@uclnsigma"
-          sigma2="@sigma2"
-          minBranchLength="1e-12"
-          ucldLogSd="0.6"
-          sigma2LogSd="0.6"
-          weight="20.0"/>
- -->
+          weight="10.0"/>
 
 
-<operator id="acSubtreeU"
+    <operator id="acSubtreeU"
           spec="mixture.beast.evolution.operator.ACSubtreeUIncrementOperator"
           tree="@Tree.t:h3n2_with_type_and_date_from_xml"
           rates="@rawRates"
@@ -547,7 +533,7 @@ name="alignment">
           allowRoot="false"
           maxSubtreeEdges="80"
           rejectIfNotAC="true"
-          weight="35.0"/>
+          weight="15.0"/>
 
 <operator id="ucldSigmaNC"
           spec="mixture.beast.evolution.operator.UCLDStdevNonCenteredOperator"
@@ -567,66 +553,7 @@ name="alignment">
           minBranchLength="1e-12"
           window="0.15"
           rejectIfNotAC="true"
-          weight="15.0"/>
-          
-          <operator id="indicator.collapsed"
-          spec="mixture.beast.evolution.operator.IndicatorCollapsedGibbsOperator"
-          indicator="@i_relax"
-          prior="@SVSRelaxedClockPrior"
-          ucldStdev="@uclnsigma"
-          sigma2="@sigma2"
-          pOne="0.5"
-          ucldPriorMeanLog="-0.7"
-          ucldPriorSdLog="0.5"
-          sigma2PriorMeanLog="-4.0"
-          sigma2PriorSdLog="1.0"
-          gridBins="80"
-          rangeSd="6.0"
-          extraLogRange="2.0"
-          weight="24.0"/>
-
-<operator id="ucacLaplace"
-          spec="mixture.beast.evolution.operator.UCACSwitchLaplaceHyperOperator"
-          indicator="@i_relax"
-          prior="@SVSRelaxedClockPrior"
-          ucldStdev="@uclnsigma"
-          sigma2="@sigma2"
-          ucldPriorMeanLog="-0.7"
-          ucldPriorSdLog="0.5"
-          sigma2PriorMeanLog="-4.0"
-          sigma2PriorSdLog="1.0"
-          gridPoints="61"
-          newtonSteps="8"
-          fdStep="1e-3"
-          rangeSd="6.0"
-          extraLogRange="2.0"
-          sdInflation="1.25"
-          minProposalSd="0.10"
-          maxProposalSd="1.50"
-          weight="14.0"/>
-  
-<operator id="ucacMultiTry"
-          spec="mixture.beast.evolution.operator.UCACSwitchMultiTryOperator"
-          indicator="@i_relax"
-          prior="@SVSRelaxedClockPrior"
-          ucldStdev="@uclnsigma"
-          sigma2="@sigma2"
-          pOne="0.5"
-          ucldPriorMeanLog="-0.7"
-          ucldPriorSdLog="0.5"
-          sigma2PriorMeanLog="-4.0"
-          sigma2PriorSdLog="1.0"
-          candidateCount="6"
-          gridPoints="61"
-          newtonSteps="8"
-          fdStep="1e-3"
-          rangeSd="6.0"
-          extraLogRange="2.0"
-          sdInflation="1.25"
-          minProposalSd="0.10"
-          maxProposalSd="1.50"
-          weight="5.0"/>
-
+          weight="15.0"/>    
 
 
          

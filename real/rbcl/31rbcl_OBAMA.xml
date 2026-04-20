@@ -268,14 +268,11 @@ name="alignment">
         
         
         
-        
-        
-        
 <operator id="uclnsigma.scale"
           spec="kernel.BactrianScaleOperator"
           parameter="@uclnsigma"
           upper="10.0"
-          weight="8.0"/>
+          weight="5.0"/>
 
 <operator id="sigma2Scaler"
           spec="ScaleOperator"
@@ -287,19 +284,19 @@ name="alignment">
           spec="mixture.beast.evolution.operator.IndicatorGibbsOperator"
           indicator="@i_relax"
           prior="@SVSRelaxedClockPrior"
-          weight="30.0"/>
+          weight="15.0"/>
 
 <operator id="rawRates.oneScale"
           spec="mixture.beast.evolution.operator.SingleRateScaleOperator"
           rates="@rawRates"
-          weight="4.0"/>
+          weight="15.0"/>
 
 <operator id="rawRates.subtreeScale"
           spec="mixture.beast.evolution.operator.SubtreeRateScaleOperator"
           rates="@rawRates"
           tree="@Tree.t:thorne31"
           window="0.25"
-          weight="6.0"/>
+          weight="20.0"/>
 
 <operator id="alphaAnneal"
           spec="mixture.beast.evolution.operator.AlphaAnnealingOperator"
@@ -307,7 +304,7 @@ name="alignment">
           alphaStart="1.0"
           alphaEnd="0.0"
           alphaSteps="5000"
-          weight="4.0"/>
+          weight="10.0"/>
 
 <operator id="ucacBridge"
           spec="mixture.beast.evolution.operator.UCACSwitchBridgeOperator"
@@ -317,21 +314,10 @@ name="alignment">
           ucldStdev="@uclnsigma"
           sigma2="@sigma2"
           minBranchLength="1e-12"
-          weight="20.0"/>
+          weight="10.0"/>
 
-<operator id="ucacMomentHyp"
-          spec="mixture.beast.evolution.operator.UCACSwitchMomentHyperOperator"
-          tree="@Tree.t:thorne31"
-          rates="@rawRates"
-          indicator="@i_relax"
-          ucldStdev="@uclnsigma"
-          sigma2="@sigma2"
-          minBranchLength="1e-12"
-          ucldLogSd="0.6"
-          sigma2LogSd="0.6"
-          weight="20.0"/>
 
-<operator id="acSubtreeU"
+    <operator id="acSubtreeU"
           spec="mixture.beast.evolution.operator.ACSubtreeUIncrementOperator"
           tree="@Tree.t:thorne31"
           rates="@rawRates"
@@ -343,7 +329,7 @@ name="alignment">
           allowRoot="false"
           maxSubtreeEdges="80"
           rejectIfNotAC="true"
-          weight="35.0"/>
+          weight="15.0"/>
 
 <operator id="ucldSigmaNC"
           spec="mixture.beast.evolution.operator.UCLDStdevNonCenteredOperator"
@@ -363,9 +349,7 @@ name="alignment">
           minBranchLength="1e-12"
           window="0.15"
           rejectIfNotAC="true"
-          weight="15.0"/>
-        
-        
+          weight="15.0"/>    
         
         
         
