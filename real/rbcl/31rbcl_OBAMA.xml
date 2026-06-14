@@ -117,11 +117,11 @@ name="alignment">
         <parameter id="rootLogRate" spec="parameter.RealParameter" name="rootLogRate">0.0</parameter>
 </distribution>
 
-<distribution id="CategoricalDistribution.relax" spec="mixture.beast.evolution.clockmodel.auto.CategoricalDistribution" parameter="@i_relax">
+<distribution id="CategoricalDistribution.relax" spec="mixture.beast.evolution.mixture.CategoricalDistribution" parameter="@i_relax">
         <parameter id="w_relax" spec="parameter.RealParameter" dimension="2" estimate="false" name="p">0.5 0.5</parameter>
 </distribution>
 
-<distribution id="CategoricalDistribution.top" spec="mixture.beast.evolution.clockmodel.auto.CategoricalDistribution" parameter="@i_top">
+<distribution id="CategoricalDistribution.top" spec="mixture.beast.evolution.mixture.CategoricalDistribution" parameter="@i_top">
         <parameter id="w_top" spec="parameter.RealParameter" dimension="2" estimate="false" name="p">0.3333333333333333 0.6666666666666666</parameter>
 </distribution>
                 

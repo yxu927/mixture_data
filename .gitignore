@@ -1,4 +1,8 @@
 .DS_Store
+__MACOSX/
+._*
+*.orig
+*.tmp
 real/H3N2/H3N2_245.log
 real/RSV2/RSV2.trees
 *.zip
